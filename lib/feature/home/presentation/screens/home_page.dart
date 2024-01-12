@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:to_do_app_v1/cubit/task_cubit.dart';
-import 'package:to_do_app_v1/pages/archived_task_page.dart';
-import 'package:to_do_app_v1/pages/done_task.dart';
-import 'package:to_do_app_v1/pages/todo_task_page.dart';
+import 'package:to_do_app_v1/feature/home/presentation/controller/task_cubit.dart';
+import 'package:to_do_app_v1/feature/home/presentation/screens/archived_task_page.dart';
+import 'package:to_do_app_v1/feature/home/presentation/screens/done_task.dart';
+import 'package:to_do_app_v1/feature/home/presentation/screens/todo_task_page.dart';
 import '../views/bottom_sheet.dart';
 
 // ignore: must_be_immutable

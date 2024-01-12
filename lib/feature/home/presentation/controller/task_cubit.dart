@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:to_do_app_v1/services/local_data.dart';
-import '../models/task.dart';
+import '../../data/models/task.dart';
 part 'task_state.dart';
 
 class TaskCubit extends Cubit<TaskState> {

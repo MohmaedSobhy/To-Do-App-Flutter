@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:to_do_app_v1/cubit/task_cubit.dart';
+import 'package:to_do_app_v1/feature/home/presentation/controller/task_cubit.dart';
 import 'package:intl/intl.dart';
 
 class BottomSheetItem extends StatelessWidget {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:to_do_app_v1/cubit/task_cubit.dart';
-import 'package:to_do_app_v1/pages/home_page.dart';
-import 'package:to_do_app_v1/pages/welcome_page.dart';
+import 'package:to_do_app_v1/feature/home/presentation/controller/task_cubit.dart';
+import 'package:to_do_app_v1/feature/home/presentation/screens/home_page.dart';
+import 'package:to_do_app_v1/feature/splash/presentation/screen/welcome_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {

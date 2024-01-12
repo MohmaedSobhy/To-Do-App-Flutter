@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import '../models/task.dart';
+import '../feature/home/data/models/task.dart';
 
 // ignore: must_be_immutable
 class TaskItem extends StatelessWidget {

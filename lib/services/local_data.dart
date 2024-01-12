@@ -5,7 +5,7 @@ import 'dart:io' as io;
 // ignore: depend_on_referenced_packages
 import 'package:path/path.dart';
 import 'package:to_do_app_v1/constans.dart';
-import 'package:to_do_app_v1/models/task.dart';
+import 'package:to_do_app_v1/feature/home/data/models/task.dart';
 
 class AppData {
   static Database? _db;

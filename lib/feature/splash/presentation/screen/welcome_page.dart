@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:to_do_app_v1/pages/home_page.dart';
+import 'package:to_do_app_v1/feature/home/presentation/screens/home_page.dart';
 
 class WelcomPage extends StatefulWidget {
   const WelcomPage({super.key});
