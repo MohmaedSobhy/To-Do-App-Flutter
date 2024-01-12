@@ -6,6 +6,12 @@ import 'package:path/path.dart';
 import 'package:to_do_app_v1/constans.dart';
 import 'package:to_do_app_v1/feature/home/data/models/task.dart';
 
+String columnTitle = "title";
+String columnTime = "time";
+String columnDate = "date";
+String columnId = "id";
+String columnStatus = "status";
+
 class AppData {
   static Database? _db;
 
