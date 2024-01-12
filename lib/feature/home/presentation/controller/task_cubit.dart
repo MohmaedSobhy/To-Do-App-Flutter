@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:to_do_app_v1/services/local_data.dart';
+import 'package:to_do_app_v1/core/utils/services/local_data.dart';
 import '../../data/models/task.dart';
 part 'task_state.dart';
 

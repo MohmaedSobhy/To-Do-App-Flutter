@@ -38,21 +38,21 @@ class _HomePageState extends State<HomePage> {
       ),
       body: screens[currentScreen],
       bottomNavigationBar: BottomNavigationBar(
-          currentIndex: currentScreen,
-          onTap: (value) {
-            setState(() {
-              currentScreen = value;
-            });
-          },
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.menu),
-              label: "Task",
-            ),
-            BottomNavigationBarItem(icon: Icon(Icons.done), label: "Done"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.archive), label: "Archived"),
-          ]),
+        currentIndex: currentScreen,
+        onTap: (value) {
+          setState(() {
+            currentScreen = value;
+          });
+        },
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.menu),
+            label: "Task",
+          ),
+          BottomNavigationBarItem(icon: Icon(Icons.done), label: "Done"),
+          BottomNavigationBarItem(icon: Icon(Icons.archive), label: "Archived"),
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           if (!isBottomSheet) {

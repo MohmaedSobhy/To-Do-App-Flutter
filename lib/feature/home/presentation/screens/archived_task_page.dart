@@ -36,7 +36,8 @@ class ArchivedTasks extends StatelessWidget {
                     indent: 1,
                     endIndent: 1,
                   );
-                });
+                },
+              );
       },
     );
   }

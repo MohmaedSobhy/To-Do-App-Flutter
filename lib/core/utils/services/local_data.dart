@@ -2,7 +2,6 @@ import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:async';
 import 'dart:io' as io;
-// ignore: depend_on_referenced_packages
 import 'package:path/path.dart';
 import 'package:to_do_app_v1/constans.dart';
 import 'package:to_do_app_v1/feature/home/data/models/task.dart';
