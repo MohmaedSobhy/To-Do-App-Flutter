@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:to_do_app_v1/constans.dart';
 import 'package:to_do_app_v1/feature/home/presentation/controller/task_cubit.dart';
-import 'package:to_do_app_v1/widgets/list_empty.dart';
+import 'package:to_do_app_v1/feature/home/presentation/widgets/list_empty.dart';
 import '../../data/models/task.dart';
-import '../../../../widgets/task_item.dart';
+import '../widgets/task_item.dart';
 
 class ToDoTask extends StatelessWidget {
   const ToDoTask({super.key});

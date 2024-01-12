@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:to_do_app_v1/feature/home/presentation/controller/task_cubit.dart';
 import '../../data/models/task.dart';
-import '../../../../widgets/list_empty.dart';
-import '../../../../widgets/task_item.dart';
+import '../widgets/list_empty.dart';
+import '../widgets/task_item.dart';
 
 class ArchivedTasks extends StatelessWidget {
   const ArchivedTasks({super.key});
