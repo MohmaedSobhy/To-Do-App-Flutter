@@ -48,22 +48,27 @@ class TaskItem extends StatelessWidget {
             ),
           ],
         ),
-        trailing: Row(mainAxisSize: MainAxisSize.min, children: [
-          IconButton(
-              onPressed: doneTaskFunction,
-              icon: Icon(
-                Icons.check,
-                color: (checkIconColor == null) ? Colors.black : checkIconColor,
-              )),
-          IconButton(
+        trailing: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            IconButton(
+                onPressed: doneTaskFunction,
+                icon: Icon(
+                  Icons.check,
+                  color:
+                      (checkIconColor == null) ? Colors.black : checkIconColor,
+                )),
+            IconButton(
               onPressed: archivedTaskFunction,
               icon: Icon(
                 Icons.archive,
                 color: (archivedIconColor == null)
                     ? Colors.black
                     : archivedIconColor,
-              )),
-        ]),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

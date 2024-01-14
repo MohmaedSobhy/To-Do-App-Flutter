@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
           home: const WelcomPage(),
           debugShowMaterialGrid: false,
           theme: ThemeData(
-            primarySwatch: Colors.deepOrange,
-            scaffoldBackgroundColor: Colors.white,
-          ),
+              primarySwatch: Colors.deepOrange,
+              scaffoldBackgroundColor: Colors.white,
+              useMaterial3: false),
           routes: {
             HomePage.id: (context) => const HomePage(),
           },
